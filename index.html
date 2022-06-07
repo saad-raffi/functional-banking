@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Monstar Money</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- bootstrap link added -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- custom css link added -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="">
+        <header>
+            <h1 class="text-center">Future Financial </h1>
+        </header>
+        <div class="container g">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <img class="img-fluid " src="resources/image.png">
+                </div>
+                <div class="col-md-6 ">
+
+                    <div class="bg-secondary text-white p-3">
+                        <h4 class="submit text-center"> Income</h4>
+                        <label class="" for="">Income:</label><input id="income-total" type="number"
+                            placeholder="Your Income">
+                        <br>
+
+                        <!-- Expenses Field added -->
+                        <h4 class="text-center">Expenses</h4>
+                        <label class="" for="">Food:</label><input id="foodcost-input" type="number"
+                            placeholder="Foodings">
+                        <br>
+                        <label class="" for="">Rent:</label><input id="rentcost-input" type="number"
+                            placeholder="Room Rent">
+                        <br>
+                        <label class="" for="">Cloths:</label><input id="clothingcost-input" type="number"
+                            placeholder="Cost of Cloths">
+                        <br>
+                        <button id="calculate-btn" type="submit" class="">Calculate</button>
+                        <h4 class="text-center">Total Expense: <span id="total-expense">000 </span></h4>
+                        <h4 class="text-center">Balance: <span id="balance-total"> 000</span> </h4>
+
+                        <!-- Savings field added -->
+                        <label class="text-center" for="">Savings:</label><input id="savings-input" type="number"
+                            placeholder="Savings">%
+                        <button id="savings-btn">Save</button>
+                        <h4 class="text-center">Savings Amount: <span id="savings-total">000</span></h4>
+
+                        <h4 class="text-center">Remaining Balance: <span id="remaining-total">000</span></h4>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+/* label{
+    display: inline-block;width: 150px;text-align: right;
+} */
+.alignment{
+    width: 40%;
+    float: left;
+
+}
+#foodcost-input,#rentcost-input,#clothingcost-input,#income-total{
+    display: flex;
+
+
+}
